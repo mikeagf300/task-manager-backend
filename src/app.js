@@ -34,7 +34,7 @@ const swaggerOptions = {
             },
         ],
     },
-    apis: ['./src/routes/*.js'], // Ruta donde estarán las anotaciones de Swagger
+    apis: ['./src/controllers/*.js'], // Ruta correcta a los controladores
 };
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
